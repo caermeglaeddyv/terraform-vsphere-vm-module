@@ -222,7 +222,7 @@ provider "vsphere" {
 }
 
 module "test-vms" {
-  source = "github.com/caermeglaeddyv/terraform-module-vsphere-vm"
+  source = "github.com/caermeglaeddyv/terraform-vsphere-vm-module"
 
   vsphere_datacenter = YOUR_DATACENTER_NAME
 
